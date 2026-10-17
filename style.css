@@ -192,6 +192,7 @@ a {
 .contact-item a {
     color: #38bdf8;
     transition: color 0.3s;
+    word-break: break-all; /* Evita que correos o links largos rompan la pantalla en móviles */
 }
 
 .contact-item a:hover {
@@ -259,4 +260,45 @@ footer {
     background-color: #0b1120;
     color: #64748b;
     border-top: 1px solid #1e293b;
+}
+
+/* ==========================================
+   Media Queries para Móviles y Tablets
+   ========================================== */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        position: static;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 80vh;
+        padding: 4rem 1rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 3rem 5% 2rem;
+    }
+
+    .contact-container {
+        padding: 1.25rem;
+    }
 }
