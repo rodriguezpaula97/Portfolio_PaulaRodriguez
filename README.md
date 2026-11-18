@@ -43,7 +43,7 @@ Si deseas clonar y probar este proyecto en tu computadora:
 
 Clona este repositorio:
 
-git clone https://github.com/rodriguezpaula97/Portfolio.git
+git clone https://github.com/rodriguezpaula97/Portfolio_PaulaRodriguez.git
 
 
 Ingresa a la carpeta del proyecto:
