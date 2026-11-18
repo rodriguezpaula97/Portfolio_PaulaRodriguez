@@ -48,7 +48,7 @@ git clone https://github.com/rodriguezpaula97/Portfolio.git
 
 Ingresa a la carpeta del proyecto:
 
-cd Portfolio
+cd Portfolio 
 
 
 Abre el archivo index.html directamente en tu navegador web favorito (o utiliza la extensión Live Server en Visual Studio Code).
