@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Opcional: Fuentes de Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- 1. Navegación -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">MiPortfolio - Paula</a>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 2. Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            Bienvenidos 🎉 <br />
+            soy <span class="highlight">Paula Rodríguez</span>
+          </h1>
+          <p>
+            Desarrolladora de Software enfocada en crear soluciones eficientes y
+            escalables.
+          </p>
+          <a href="#proyectos" class="btn">Ver Proyectos</a>
+        </div>
+      </section>
+
+      <!-- 3. Sobre mí -->
+      <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <p>
+          Estudiante (3er año)
+          <br />
+          Tec. Sup. en Desarrollo de Software.
+          <br />
+          + cursos de IA
+          <br />
+          Persona autodidacta con conocimientos generales y entusiasmo por
+          seguir codeando y perfeccionándome.
+        </p>
+      </section>
+
+      <!-- 4. Habilidades -->
+      <section id="habilidades" class="section">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">React / node.js</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">SQL / Bases de Datos</span>
+          <span class="skill-tag">Git & GitHub / mercurial</span>
+          <span class="skill-tag">HTML5 & CSS3</span>
+        </div>
+      </section>
+
+      <!-- 5. Proyectos -->
+      <section id="proyectos" class="section">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <div class="project-card">
+            <h3>Gastrosoft</h3>
+            <p>
+              Digitaliza y automatiza el proceso de negocio para locales
+              Gastronómicos.
+            </p>
+            <div class="project-images-grid">
+              <img
+                src="img/Interfaz_Mobile_Carta.png"
+                alt="Vista previa 1 de Gastrosoft"
+              />
+              <img
+                src="img/Panel_de_administracion.png"
+                alt="Vista previa 2 de Gastrosoft"
+              />
+              <img
+                src="img/png_de_codigo_button.png"
+                alt="Vista previa 3 de Gastrosoft"
+              />
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/FrankMaldo/GrupoF-GestionDeProyectos"
+                target="_blank"
+              >
+                <span class="highlight"> Código (GitHub) </span>
+              </a>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="projects-grid">
+          <!-- Proyecto 2 -->
+          <div class="project-card">
+            <h3>Pokédex App</h3>
+            <p>
+              Pokédex App es una aplicación web interactiva desarrollada para
+              buscar, visualizar y explorar las estadísticas y detalles de tus
+              Pokémon favoritos.
+            </p>
+            <div class="project-images-grid">
+              <img
+                src="img/interfaz-pokedex-bulbasaur.png"
+                alt="Vista previa 1 de Pokedex"
+              />
+              <img
+                src="img/interfaz-pokedex-charmander.png"
+                alt="Vista previa 2 de Pokedex"
+              />
+              <img
+                src="img/interfaz-pokedex-pidgeot.png"
+                alt="Vista previa 3 de Pokedex"
+              />
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/rodriguezpaula97/pokedex-app"
+                target="_blank"
+              >
+                <span class="highlight"> Código (GitHub) </span>
+              </a>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="projects-grid">
+          <!-- Proyecto 3 -->
+          <div class="project-card">
+            <h3>Task App</h3>
+            <p>
+              Aplicación móvil y web multiplataforma hecha en React Native
+              (Expo) con TypeScript para una gestión eficiente de tareas
+              personales. Permite: Crear, editar y borrar tareas. Marcar estados
+              (realizadas/pendientes). Organizar mediante categorías
+              relacionales. Ver el progreso con gráficos estadísticos de avance.
+            </p>
+            <div class="project-images-grid">
+              <img
+                src="img/CategoriesScreen.png"
+                alt="Vista previa de Categorias"
+              />
+              <img
+                src="img/StastScreen.png"
+                alt="Vista previa de Estadísticas"
+              />
+              <img
+                src="img/TaskFormScreen.png"
+                alt="Vista previa de Formulario de Tareas"
+              />
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/rodriguezpaula97/TaskApp"
+                target="_blank"
+              >
+                <span class="highlight"> Código (GitHub) </span>
+              </a>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Contacto -->
+      <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>
+          ¿Tenés una propuesta laboral o querés que conversemos sobre
+          tecnología? ¡Escribime!
+        </p>
+        <br />
+        <div class="skill-tag1">
+          <a href="https://mail.google.com/"
+            ><span class="highlight"
+              ><i class="fa-solid fa-envelope"></i> E-mail: </span
+            >rodriguezpaulaanabel.sederio3@upc.edu.ar</a
+          >
+          <br />
+          <a href="https://www.linkedin.com/in/rodriguezpaulaanabel/">
+            <span class="highlight"
+              ><i class="fa-brands fa-linkedin-in"></i> LinkedIn
+            </span>
+          </a>
+          <br />
+          <a href="https://github.com/rodriguezpaula97">
+            <span class="highlight">
+              <i class="fa-brands fa-github"></i> Github
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- 7. Footer -->
+    <footer>
+      <p>&copy; 2026 - Diseñado y creado con HTML y CSS - Paula Rodriguez</p>
+    </footer>
+  </body>
+</html>
